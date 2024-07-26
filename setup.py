@@ -5,14 +5,14 @@ import setuptools
 HERE = pathlib.Path(__file__).parent
 
 # The text of the README file
-README = (HERE / "README.md").read_text()
+# README = (HERE / "README.md").read_text()
 
 setuptools.setup(
     name="sports",
     version='0.1.0',
     python_requires=">=3.8",
     description="",
-    long_description=README,
+    # long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/roboflow/sports",
     author="Piotr Skalski",
